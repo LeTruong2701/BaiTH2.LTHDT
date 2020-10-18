@@ -27,11 +27,11 @@ namespace BaiTH2.LTHDT
         {
             if (mau == 1)
             {
-                Console.WriteLine("Phan so la :{0}", tu);
+                Console.WriteLine("{0}", tu);
             }
             else
             {
-                Console.WriteLine($"{tu}/{mau}");
+                Console.WriteLine("{0}/{1}",tu,mau);
             }
         }
         public int Uscln(int x, int y)
